@@ -87492,7 +87492,7 @@ maimer
 maimers
 maiming
 maims
-main
+main.java.Main
 mainframe
 mainframes
 mainland

@@ -7,7 +7,7 @@ import java.util.Collections;
 public class IterativeList {
 
     public static void main(String[] args) throws Exception {
-        FileReader reader = new FileReader("src/challenge_363/enable1.txt");
+        FileReader reader = new FileReader("src/main.java.challenge_363/enable1.txt");
         BufferedReader buffer = new BufferedReader(reader);
         Iterative iterative = new Iterative();
         buffer.lines()
@@ -15,7 +15,7 @@ public class IterativeList {
                 .filter(entry -> entry.containsValue(false))
                 .forEach(entry -> System.out.println(entry));
 
-        reader = new FileReader("src/challenge_363/enable1.txt");
+        reader = new FileReader("src/main.java.challenge_363/enable1.txt");
         buffer = new BufferedReader(reader);
 
         long count = buffer.lines()
